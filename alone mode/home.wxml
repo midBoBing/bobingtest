@@ -1,0 +1,25 @@
+<!--pages/home/home.wxml-->
+<view>
+<image class="bg-image1" mode="scaleToFill" src="http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcXs7yIofVt*Z.uwgdqFCja0oHai3sJwBn.elnlMtkt7t02zNpDJ7k2MNgrvh4vRpWzCJbdXaTmb5sG9JcSVtZps!/b&bo=OASrCAAAAAABF68!&rf=viewer_4"></image>
+</view>
+<view class='aa1'>
+    <text class='bb1'>单机模式</text>
+</view>
+<view>
+<image class="bg-image2" mode="scaleToFill" src="http://r.photo.store.qq.com/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcaPy*xFXq0jAzyJINtKAjiZqTkNsKxW9JMzEQh1NkkkcprNkrUSM0jw6medKu9U4ydNF*dr5n.YgAkcqLZKum7c!/r"></image>
+</view>
+
+<view>
+  <button bindtap="go2stargame" style="height:10vh;display:flex;flex-direction:column;align-items:center;position:fixed;bottom:500rpx;left:0;right:0;justify-content:space-between;font-size: 25px;font-weight: bold;background-color: transparent;color: #887d6e;">开始游戏</button>   
+</view>
+
+
+<!--弹窗-->
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<view class="modalDlg" wx:if="{{showModal}}">
+    <text>历史记录</text>
+    <button bindtap="go" style="background-color: rgb(255, 255, 255);text-align: center;line-height: 500px;">返回</button>
+    
+</view>
+<button bindtap="submit" style="position:absolute; background-color: transparent;border-color:transparent ; line-height: 50px;top:480px;font-size: 25px; align-items: center;  text-align: center;left: 25%; justify-content: space-between;color: #887d6e;">历史记录</button>
+
