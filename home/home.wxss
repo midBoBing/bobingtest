@@ -1,0 +1,80 @@
+.type1{
+  font-family: cursive;
+  color: #FFAA33;
+  font-weight: bold;
+  font-size: 200rpx;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  text-align: center;
+  bottom: 1090rpx;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+}
+.type2{
+  font-family: cursive;
+  color: #FFAA33;
+  font-weight: bold;
+  font-size: 170rpx;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  text-align: center;
+  bottom: 870rpx;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+}
+.container1{
+  font-size: 40rpx;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  text-align: center;
+  bottom: 450rpx;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+}
+.container2{
+  font-size: 40rpx;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  text-align: center;
+  bottom: 350rpx;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+}
+.container3{
+  font-size: 40rpx;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  text-align: center;
+  bottom: 250rpx;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+}
+
+.bg-image{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+

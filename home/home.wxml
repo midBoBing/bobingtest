@@ -1,0 +1,17 @@
+<!--pages/home/home.wxml-->
+<view>
+<image class="bg-image" mode="scaleToFill" src="http://m.qpic.cn/psc?/V542ikr03Du9FK2IWQkj0ttoCY4JN6T4/TmEUgtj9EK6.7V8ajmQrEICpoFW0U9a09bbvLi40x45QnSCaKuYNmSRiTkXJ18Z6gxg0qghk1QanPwv*86TXKb8v*D2R*tJAHdLA7oK2QXo!/b&bo=OATeBgAAAAABF9Q!&rf=viewer_4"></image>
+</view>
+<view>
+<text class="type1">中秋</text>
+<text class="type2">博饼</text>
+</view>
+<view>
+  <button bindtap="goalone" style="position:absolute;background:rgb(218, 188, 154);width: 40%;top:420px;left: 10%;color: white;border-radius: 50rpx;left: 30%">单机模式</button>   
+</view>
+<view>
+  <button bindtap="goconnected" style="position:absolute;background:rgb(218, 188, 154);width: 40%;top:480px;left: 10%;color: white;border-radius: 50rpx;left: 30%">联网模式</button>
+</view>
+<view>
+  <button bindtap="gorule" style="position:absolute;background:rgb(218, 188, 154);width: 40%;top:540px;left: 10%;color: white;border-radius: 50rpx;left: 30%">游戏规则</button>
+</view>
