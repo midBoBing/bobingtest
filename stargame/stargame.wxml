@@ -1,0 +1,25 @@
+<view>
+<image class="bg-image1" mode="scaleToFill" src="http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcXs7yIofVt*Z.uwgdqFCja0oHai3sJwBn.elnlMtkt7t02zNpDJ7k2MNgrvh4vRpWzCJbdXaTmb5sG9JcSVtZps!/b&bo=OASrCAAAAAABF68!&rf=viewer_4"></image>
+</view>
+<view>
+<text class="con">单机游戏</text>
+</view>
+<view>
+<image class="bg-image2" mode="scaleToFill" src="http://m.qpic.cn/psc?/V13o297P0pKsa6/ruAMsa53pVQWN7FLK88i5s.5sdtYz.zxlUhTYk0blGfraLy9xmeophQqNQvqHA0lAwQx6f5Zl.cYAGDYldgX18vy22V9ZhFIF5TFUL4kxqw!/mnull&bo=0AJ4AgAAAAADB4o!&rf=photolist&t=5"></image>
+</view>
+<view class="yyx">
+<text >{{l}}</text>
+</view>
+
+<view class='top'>{{txt}}</view>
+<view class='point1'>
+ <image src='{{one_img}}'></image>
+ <image src='{{two_img}}'></image>
+ <image src='{{three_img}}'></image>
+</view>
+<view class='point2'>
+ <image src='{{four_img}}'></image>
+ <image src='{{five_img}}'></image>
+ <image src='{{six_img}}'></image>
+</view>
+<view class='btn' bindtap='enter'>{{msg}}</view>
