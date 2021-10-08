@@ -1,0 +1,21 @@
+<!--pages/stargame/stargame.wxml-->
+<view>
+<image class="bg-image1" mode="scaleToFill" src="http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcXs7yIofVt*Z.uwgdqFCja0oHai3sJwBn.elnlMtkt7t02zNpDJ7k2MNgrvh4vRpWzCJbdXaTmb5sG9JcSVtZps!/b&bo=OASrCAAAAAABF68!&rf=viewer_4"></image>
+</view>
+<view class='aa1'>
+    <text class='bb1'>创建新房间</text>
+</view>
+<view>
+<image class="bg-image2" mode="scaleToFill" src="http://r.photo.store.qq.com/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcaGvVOqbjZWcT3FgGfqnElFVneC*IOnfR4Q9Xatz3mpw2wYOpq2zgvO5Eazzabx*ZMatZgUg.5qQJONnQM3RZR8!/r"></image>
+</view>
+<!--输入框-->
+<view class='aa2'>
+    <text class='bb2'>请输入人数：</text>
+</view>
+<view class="view-contain-ti">
+    <input class="input1" maxlength="1" style="text-align: center;vertical-align: middle;"></input>
+</view>
+<!--确定跳转-->
+<view>
+  <button bindtap="go2myroom" style="position:absolute;background:rgb(218, 188, 154);width: 40%;top:500px;left: 10%;color: white;border-radius: 50rpx;left: 30%">确认</button>
+</view>
