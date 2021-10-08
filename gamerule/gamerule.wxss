@@ -1,0 +1,32 @@
+/* pages/gamerule/ganmerule.wxss */
+.aa1{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.bb1{
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.bg-image1
+{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+.bg-image2
+{
+  width: 100%;
+  height: 70%;
+  position: fixed;
+  display: flex;
+  justify-content:center;
+  margin: 0 auto;
+  opacity: 0.8;
+}
